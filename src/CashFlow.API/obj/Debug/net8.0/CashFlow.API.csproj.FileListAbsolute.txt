@@ -1,0 +1,6 @@
+D:\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.csproj.AssemblyReference.cache
+D:\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.AssemblyInfoInputs.cache
+D:\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.AssemblyInfo.cs
+D:\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.csproj.CoreCompileInputs.cache
+D:\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.MvcApplicationPartsAssemblyInfo.cache
