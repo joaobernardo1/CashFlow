@@ -27,7 +27,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Windows Lite BR\\.nuget\\packages\\": {},
+    "C:\\Users\\Jhones\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -36,14 +36,14 @@
       "projectUniqueName": "D:\\Workspace\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
       "projectName": "CashFlow.Infrastructure",
       "projectPath": "D:\\Workspace\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Windows Lite BR\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Jhones\\.nuget\\packages\\",
       "outputPath": "D:\\Workspace\\CashFlow\\src\\CashFlow.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Windows Lite BR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jhones\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -52,6 +52,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
