@@ -13,3 +13,4 @@ D:\Workspace\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infr
 D:\Workspace\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\refint\CashFlow.Infrastructure.dll
 D:\Workspace\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.pdb
 D:\Workspace\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\ref\CashFlow.Infrastructure.dll
+D:\Workspace\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.sourcelink.json
