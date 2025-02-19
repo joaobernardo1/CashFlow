@@ -46,3 +46,6 @@ D:\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.genruntimec
 D:\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\ref\CashFlow.API.dll
 D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\FluentValidation.dll
 D:\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\fr\CashFlow.Exception.resources.dll
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\pt-PT\CashFlow.Exception.resources.dll
