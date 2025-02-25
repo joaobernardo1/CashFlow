@@ -395,6 +395,9 @@
               "D:\\Workspace\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
                 "projectPath": "D:\\Workspace\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj"
               },
+              "D:\\Workspace\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
+                "projectPath": "D:\\Workspace\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
+              },
               "D:\\Workspace\\CashFlow\\test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj": {
                 "projectPath": "D:\\Workspace\\CashFlow\\test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj"
               }
@@ -424,6 +427,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.13.0, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             },
             "System.Net.Http": {
               "target": "Package",

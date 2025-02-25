@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{25AE0424-8FFF-48D5-ACE4-DCB06F13FB1C}|test\\Validator.Test\\Validator.Test.csproj|d:\\workspace\\cashflow\\test\\validator.test\\request\\register\\registerexpenseunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25AE0424-8FFF-48D5-ACE4-DCB06F13FB1C}|test\\Validator.Test\\Validator.Test.csproj|solutionrelative:test\\validator.test\\request\\register\\registerexpenseunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE927FBA-43A8-456C-BBFC-4FF637AB526B}|test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj|d:\\workspace\\cashflow\\test\\commonutilitiestest\\requestexpensesbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE927FBA-43A8-456C-BBFC-4FF637AB526B}|test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj|solutionrelative:test\\commonutilitiestest\\requestexpensesbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,22 +24,10 @@
               "RelativeDocumentMoniker": "test\\Validator.Test\\Request\\Register\\RegisterExpenseUnitTest.cs",
               "ToolTip": "D:\\Workspace\\CashFlow\\test\\Validator.Test\\Request\\Register\\RegisterExpenseUnitTest.cs",
               "RelativeToolTip": "test\\Validator.Test\\Request\\Register\\RegisterExpenseUnitTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowEMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T14:48:03.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RequestExpensesBuilder.cs",
-              "DocumentMoniker": "D:\\Workspace\\CashFlow\\test\\CommonUtilitiesTest\\RequestExpensesBuilder.cs",
-              "RelativeDocumentMoniker": "test\\CommonUtilitiesTest\\RequestExpensesBuilder.cs",
-              "ToolTip": "D:\\Workspace\\CashFlow\\test\\CommonUtilitiesTest\\RequestExpensesBuilder.cs",
-              "RelativeToolTip": "test\\CommonUtilitiesTest\\RequestExpensesBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T15:17:48.99Z",
+              "WhenOpened": "2025-02-25T22:07:18.295Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

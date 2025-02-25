@@ -12,6 +12,7 @@ namespace CommonUtilitiesTest
 
             return new Faker<RequestRegisterExpenseJson>()
             .RuleFor(x => x.Title, faker => faker.Lorem.Sentence())
+            .RuleFor(x => x.Time, faker => faker.Date.Past())
             .RuleFor(x => x.Description, faker => faker.Lorem.Paragraph())
             .RuleFor(x => x.PaymentType, faker => faker.PickRandom<PaymentType>())
             .RuleFor(x => x.Amount, faker => faker.Random.Decimal(0, 1000));
