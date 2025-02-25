@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Workspace\\CashFlow\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25AE0424-8FFF-48D5-ACE4-DCB06F13FB1C}|test\\Validator.Test\\Validator.Test.csproj|d:\\workspace\\cashflow\\test\\validator.test\\request\\register\\registerexpenseunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25AE0424-8FFF-48D5-ACE4-DCB06F13FB1C}|test\\Validator.Test\\Validator.Test.csproj|solutionrelative:test\\validator.test\\request\\register\\registerexpenseunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE927FBA-43A8-456C-BBFC-4FF637AB526B}|test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj|d:\\workspace\\cashflow\\test\\commonutilitiestest\\requestexpensesbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE927FBA-43A8-456C-BBFC-4FF637AB526B}|test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj|solutionrelative:test\\commonutilitiestest\\requestexpensesbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterExpenseUnitTest.cs",
+              "DocumentMoniker": "D:\\Workspace\\CashFlow\\test\\Validator.Test\\Request\\Register\\RegisterExpenseUnitTest.cs",
+              "RelativeDocumentMoniker": "test\\Validator.Test\\Request\\Register\\RegisterExpenseUnitTest.cs",
+              "ToolTip": "D:\\Workspace\\CashFlow\\test\\Validator.Test\\Request\\Register\\RegisterExpenseUnitTest.cs",
+              "RelativeToolTip": "test\\Validator.Test\\Request\\Register\\RegisterExpenseUnitTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T15:22:04.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestExpensesBuilder.cs",
+              "DocumentMoniker": "D:\\Workspace\\CashFlow\\test\\CommonUtilitiesTest\\RequestExpensesBuilder.cs",
+              "RelativeDocumentMoniker": "test\\CommonUtilitiesTest\\RequestExpensesBuilder.cs",
+              "ToolTip": "D:\\Workspace\\CashFlow\\test\\CommonUtilitiesTest\\RequestExpensesBuilder.cs",
+              "RelativeToolTip": "test\\CommonUtilitiesTest\\RequestExpensesBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T15:22:30.773Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
