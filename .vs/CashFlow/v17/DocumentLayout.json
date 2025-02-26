@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Workspace\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25AE0424-8FFF-48D5-ACE4-DCB06F13FB1C}|test\\Validator.Test\\Validator.Test.csproj|d:\\workspace\\cashflow\\test\\validator.test\\request\\register\\registerexpenseunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25AE0424-8FFF-48D5-ACE4-DCB06F13FB1C}|test\\Validator.Test\\Validator.Test.csproj|solutionrelative:test\\validator.test\\request\\register\\registerexpenseunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AA6F1E8-32A2-4E48-BB28-EA3F07D7D796}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|d:\\workspace\\cashflow\\src\\cashflow.domain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA6F1E8-32A2-4E48-BB28-EA3F07D7D796}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflow.domain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegisterExpenseUnitTest.cs",
-              "DocumentMoniker": "D:\\Workspace\\CashFlow\\test\\Validator.Test\\Request\\Register\\RegisterExpenseUnitTest.cs",
-              "RelativeDocumentMoniker": "test\\Validator.Test\\Request\\Register\\RegisterExpenseUnitTest.cs",
-              "ToolTip": "D:\\Workspace\\CashFlow\\test\\Validator.Test\\Request\\Register\\RegisterExpenseUnitTest.cs",
-              "RelativeToolTip": "test\\Validator.Test\\Request\\Register\\RegisterExpenseUnitTest.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAwwDIAAAAJAAAAAAAAAA==",
+              "Title": "Expense.cs",
+              "DocumentMoniker": "D:\\Workspace\\CashFlow\\src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "ToolTip": "D:\\Workspace\\CashFlow\\src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "RelativeToolTip": "src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T22:07:18.295Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-02-26T15:40:45.017Z",
               "EditorCaption": ""
             }
           ]
