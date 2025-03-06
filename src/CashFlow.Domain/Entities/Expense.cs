@@ -4,6 +4,7 @@ namespace CashFlow.Domain.Entities
 {
     public class Expense
     {
+        public int Id { get; set; }
         public string Title = string.Empty;
         public string? Description;
         public DateTime Date;

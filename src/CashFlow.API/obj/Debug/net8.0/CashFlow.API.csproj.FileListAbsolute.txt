@@ -49,3 +49,14 @@ D:\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.MvcApplicat
 D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\fr\CashFlow.Exception.resources.dll
 D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
 D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\pt-PT\CashFlow.Exception.resources.dll
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\MySqlConnector.dll
+D:\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
