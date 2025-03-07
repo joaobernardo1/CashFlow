@@ -21,5 +21,3 @@ D:\Workspace\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\ref\CashFlow.App
 D:\Workspace\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\fr\CashFlow.Exception.resources.dll
 D:\Workspace\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
 D:\Workspace\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-PT\CashFlow.Exception.resources.dll
-D:\Workspace\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\CashFlow.Infrastructure.dll
-D:\Workspace\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\CashFlow.Infrastructure.pdb

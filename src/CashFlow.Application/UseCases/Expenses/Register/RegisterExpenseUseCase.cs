@@ -3,12 +3,11 @@ using CashFlow.Communication.Responses;
 using CashFlow.Domain.Entities;
 using CashFlow.Domain.Repositories.Expenses;
 using CashFlow.Exception.ExceptionBase;
-using System.Security.Cryptography.X509Certificates;
 
 namespace CashFlow.Application.UseCases.Expenses.Register;
 
 
-public class RegisterExpenseUseCase
+public class RegisterExpenseUseCase : IRegisterExpenseUseCase
 {
     private readonly IExpensesRepository _repository;
 
@@ -20,15 +19,16 @@ public class RegisterExpenseUseCase
     public ResponseRegisterExpenseJson Execute(RequestRegisterExpenseJson request)
     {
         Validate(request);
+
         var entity = new Expense
         {
             Amount = request.Amount,
-            Date = request.Time,
+            Time = request.Time,
             Description = request.Description,
+            Title = request.Title,
             PaymentType = (Domain.Enums.PaymentType)request.PaymentType,
-            Title = request.Title
         };
-
+        _repository.Add(entity);
         return new ResponseRegisterExpenseJson();
     }
 

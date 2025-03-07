@@ -1,6 +1,5 @@
 ﻿using CashFlow.Domain.Entities;
 using CashFlow.Domain.Repositories.Expenses;
-using Microsoft.EntityFrameworkCore;
 
 namespace CashFlow.Infrastructure.DataAccess.Repository
 {
@@ -10,7 +9,7 @@ namespace CashFlow.Infrastructure.DataAccess.Repository
         {
             var dbContext = new CashFlowDbContext();
 
-            dbContext.Add(expense);
+            dbContext.Expenses.Add(expense);
 
             dbContext.SaveChanges();
         }

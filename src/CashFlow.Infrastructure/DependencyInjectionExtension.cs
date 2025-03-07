@@ -8,6 +8,7 @@ namespace CashFlow.Infrastructure
     {
         public static void AddInfrastructure(this IServiceCollection services)
         {
+            
             services.AddScoped<IExpensesRepository, ExepensesRepository>();
         } 
     }

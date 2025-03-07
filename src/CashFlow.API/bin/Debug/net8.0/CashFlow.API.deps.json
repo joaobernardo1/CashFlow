@@ -12,6 +12,7 @@
           "CashFlow.Communication": "1.0.0",
           "CashFlow.Exception": "1.0.0",
           "CashFlow.Infrastructure": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.1",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
@@ -217,8 +218,8 @@
           "CashFlow.Communication": "1.0.0",
           "CashFlow.Domain": "1.0.0",
           "CashFlow.Exception": "1.0.0",
-          "CashFlow.Infrastructure": "1.0.0",
-          "FluentValidation": "11.11.0"
+          "FluentValidation": "11.11.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.1"
         },
         "runtime": {
           "CashFlow.Application.dll": {
@@ -266,6 +267,7 @@
         "dependencies": {
           "CashFlow.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.13",
+          "Microsoft.Extensions.DependencyInjection": "8.0.1",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
         },
         "runtime": {

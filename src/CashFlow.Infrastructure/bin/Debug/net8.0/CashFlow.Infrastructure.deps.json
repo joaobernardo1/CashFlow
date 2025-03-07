@@ -10,6 +10,7 @@
         "dependencies": {
           "CashFlow.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.13",
+          "Microsoft.Extensions.DependencyInjection": "8.0.1",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
         },
         "runtime": {
