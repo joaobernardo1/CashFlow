@@ -2,16 +2,10 @@
 {
      public class ErrorOnValidateException : CashFlowException
     {
-        public List<string> ErrorMessages { get; private set; }
-
-        public ErrorOnValidateException(string errorMessage)
-        {
-            ErrorMessages = [errorMessage];
-        }
-
+        public List<string> Errors { get; set; }
         public ErrorOnValidateException(List<string> errorMessages)
         {
-            ErrorMessages = errorMessages;
+            Errors = errorMessages;
         }
     }
 }

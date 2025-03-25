@@ -1,6 +1,6 @@
 ﻿namespace CashFlow.Exception.ExceptionBase
 {
-    public class CashFlowException : SystemException
+    public abstract class CashFlowException : SystemException
     {
     }
 }

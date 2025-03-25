@@ -1,4 +1,5 @@
-﻿using CashFlow.Exception.ExceptionBase;
+﻿using CashFlow.Communication.Responses;
+using CashFlow.Exception.ExceptionBase;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
@@ -14,7 +15,7 @@ namespace CashFlow.API.Filter
             }
             else
             {
-                ThrowUnknowExceptio(context);
+                ThrowUnknowException(context);
             }
         }
 
@@ -23,18 +24,19 @@ namespace CashFlow.API.Filter
             if(context.Exception is ErrorOnValidateException)
             {
                 var ex = (ErrorOnValidateException)context.Exception;
-                var response = new ErrorOnValidateException(ex.ErrorMessages);
+                var response = new ResponseErrorJson(ex.Errors);
                 context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
-                context.Result = new BadRequestObjectResult(response.ErrorMessages);
-
+                context.Result = new BadRequestObjectResult(response);
+            }
+            else
+            {
+                var errorResponse = new ResponseErrorJson(context.Exception.Message);
+                context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
+                context.Result = new BadRequestObjectResult(errorResponse);
             }
         }
-        private void ThrowUnknowExceptio(ExceptionContext context)
+        private void ThrowUnknowException(ExceptionContext context)
         {
-            var response = new ErrorOnValidateException("An error occurred while registering the expense.");
-            context.HttpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
-            context.Result = new ObjectResult(response.Message);
-
         }
     }
 }
