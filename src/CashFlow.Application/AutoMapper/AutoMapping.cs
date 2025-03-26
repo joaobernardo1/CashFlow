@@ -21,6 +21,7 @@ namespace CashFlow.Application.AutoMapper
         public void EntityToResponse()
         {
             CreateMap<Expense, ResponseRegisterExpenseJson>();
+            CreateMap<Expense, ResponseShortExpensesJson>();
         }
     }
 }
