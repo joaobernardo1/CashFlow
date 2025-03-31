@@ -14,10 +14,10 @@ namespace CashFlow.Application.UseCases.Expenses.GetAll
             _repository = repository;
             _mapper = mapper;
         }
-        public async Task<ResponseExpenseJson> Execute()
+        public async Task<ResponseExpensesJson> Execute()
         {
             var response = await _repository.GetAll();
-            return new ResponseExpenseJson
+            return new ResponseExpensesJson
             {
                 Expenses = _mapper.Map<List<ResponseShortExpensesJson>>(response)
             };
