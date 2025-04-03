@@ -4,7 +4,10 @@
     {
         protected CashFlowException(string message) : base(message)
         {
+
         }
-        protected string StatusCode { get; }
+        public abstract int StatusCode { get; }
+
+        public abstract List<string> GetErrors();
     }
 }

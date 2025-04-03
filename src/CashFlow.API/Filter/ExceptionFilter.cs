@@ -22,19 +22,10 @@ namespace CashFlow.API.Filter
 
         private void HandleException(ExceptionContext context)
         {
-            if(context.Exception is ErrorOnValidateException)
-            {
-                var ex = (ErrorOnValidateException)context.Exception;
-                var response = new ResponseErrorJson(ex.Errors);
-                context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
-                context.Result = new BadRequestObjectResult(response);
-            }
-            else
-            {
-                var errorResponse = new ResponseErrorJson(context.Exception.Message);
-                context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
-                context.Result = new BadRequestObjectResult(errorResponse);
-            }
+            var cashFlowException = context.Exception as CashFlowException;
+            var errorResponse = new ResponseErrorJson(cashFlowException!.GetErrors());
+            context.HttpContext.Response.StatusCode = cashFlowException.StatusCode;
+            context.Result = new ObjectResult(new ResponseErrorJson(cashFlowException.Message));
         }
         private void ThrowUnknowException(ExceptionContext context)
         {
