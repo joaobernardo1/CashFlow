@@ -102,7 +102,6 @@ C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\n
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.AssemblyInfoInputs.cache
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.AssemblyInfo.cs
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.sourcelink.json
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\scopedcss\bundle\CashFlow.API.styles.css

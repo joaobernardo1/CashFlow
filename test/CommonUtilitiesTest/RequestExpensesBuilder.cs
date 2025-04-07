@@ -6,11 +6,11 @@ namespace CommonUtilitiesTest
 {
     public class RequestExpensesBuilder
     {
-        public static RequestRegisterExpenseJson Build()
+        public static RequestExpenseJson Build()
         {
             var faker = new Faker("en");
 
-            return new Faker<RequestRegisterExpenseJson>()
+            return new Faker<RequestExpenseJson>()
             .RuleFor(x => x.Title, faker => faker.Lorem.Sentence())
             .RuleFor(x => x.Time, faker => faker.Date.Past())
             .RuleFor(x => x.Description, faker => faker.Lorem.Paragraph())

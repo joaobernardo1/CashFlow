@@ -25,7 +25,7 @@ public class RegisterExpenseUseCase : IRegisterExpenseUseCase
         _unityOfWork = unitOfWork;
     }
 
-    public async Task<ResponseRegisterExpenseJson> Execute(RequestRegisterExpenseJson request)
+    public async Task<ResponseRegisterExpenseJson> Execute(RequestExpenseJson request)
     {
         Validate(request);
 
@@ -40,9 +40,9 @@ public class RegisterExpenseUseCase : IRegisterExpenseUseCase
     }
 
 
-    public void Validate(RequestRegisterExpenseJson request)
+    public void Validate(RequestExpenseJson request)
     {
-        var validator = new RegisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var response = validator.Validate(request);
 
         if(response.IsValid == false)

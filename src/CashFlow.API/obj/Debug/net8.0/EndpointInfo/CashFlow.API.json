@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/RequestRegisterExpenseJson"
+                "$ref": "#/components/schemas/RequestExpenseJson"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/RequestRegisterExpenseJson"
+                "$ref": "#/components/schemas/RequestExpenseJson"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/RequestRegisterExpenseJson"
+                "$ref": "#/components/schemas/RequestExpenseJson"
               }
             }
           }
@@ -228,6 +228,83 @@
             }
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Expenses"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestExpenseJson"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestExpenseJson"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestExpenseJson"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "description": "No Content",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseRegisterExpenseJson"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseRegisterExpenseJson"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseRegisterExpenseJson"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseErrorJson"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseErrorJson"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseErrorJson"
+                }
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -243,7 +320,7 @@
         "type": "integer",
         "format": "int32"
       },
-      "RequestRegisterExpenseJson": {
+      "RequestExpenseJson": {
         "type": "object",
         "properties": {
           "title": {

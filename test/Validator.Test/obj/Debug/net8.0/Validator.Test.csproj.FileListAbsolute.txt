@@ -160,3 +160,14 @@ D:\Workspace\CashFlow\test\Validator.Test\bin\Debug\net8.0\Shouldly.dll
 D:\Workspace\CashFlow\test\Validator.Test\bin\Debug\net8.0\System.CodeDom.dll
 D:\Workspace\CashFlow\test\Validator.Test\bin\Debug\net8.0\System.Management.dll
 D:\Workspace\CashFlow\test\Validator.Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\test\Validator.Test\bin\Debug\net8.0\.msCoverageSourceRootsMapping_Validator.Test
+C:\Users\Administrator\Documents\Workspace\CashFlow\test\Validator.Test\bin\Debug\net8.0\CoverletSourceRootsMapping_Validator.Test
+C:\Users\Administrator\Documents\Workspace\CashFlow\test\Validator.Test\obj\Debug\net8.0\Validator.Test.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Workspace\CashFlow\test\Validator.Test\obj\Debug\net8.0\Validator.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Workspace\CashFlow\test\Validator.Test\obj\Debug\net8.0\Validator.Test.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Workspace\CashFlow\test\Validator.Test\obj\Debug\net8.0\Validator.Test.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Workspace\CashFlow\test\Validator.Test\obj\Debug\net8.0\Validator.Test.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Workspace\CashFlow\test\Validator.Test\obj\Debug\net8.0\Validator.Test.sourcelink.json
+C:\Users\Administrator\Documents\Workspace\CashFlow\test\Validator.Test\obj\Debug\net8.0\Validator.Test.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\test\Validator.Test\obj\Debug\net8.0\refint\Validator.Test.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\test\Validator.Test\obj\Debug\net8.0\Validator.Test.pdb

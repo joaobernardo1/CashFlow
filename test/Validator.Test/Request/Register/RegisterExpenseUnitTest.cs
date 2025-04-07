@@ -1,4 +1,4 @@
-﻿using CashFlow.Application.UseCases.Expenses.Register;
+﻿using CashFlow.Application.UseCases.Expenses;
 using CashFlow.Communication.Enums;
 using CashFlow.Exception;
 using CommonUtilitiesTest;
@@ -12,7 +12,7 @@ namespace Validator.Test.Request.Register
         public void Sucess()
         {
             var request = RequestExpensesBuilder.Build();
-            var validator = new RegisterExpenseValidator();
+            var validator = new ExpenseValidator();
             var response = validator.Validate(request);
             response.IsValid.ShouldBeTrue();
         }
@@ -24,7 +24,7 @@ namespace Validator.Test.Request.Register
         {
             var request = RequestExpensesBuilder.Build();
             request.Title = title;
-            var validator = new RegisterExpenseValidator();
+            var validator = new ExpenseValidator();
             var response = validator.Validate(request);
 
             response.IsValid.ShouldBeFalse();
@@ -40,7 +40,7 @@ namespace Validator.Test.Request.Register
         {
             var request = RequestExpensesBuilder.Build();
             request.Amount = amount;
-            var validator = new RegisterExpenseValidator();
+            var validator = new ExpenseValidator();
             var response = validator.Validate(request);
 
             response.IsValid.ShouldBeFalse();
@@ -53,7 +53,7 @@ namespace Validator.Test.Request.Register
         public void Error_Future_Expenses()
         {
             var request = RequestExpensesBuilder.Build();
-            var validator = new RegisterExpenseValidator();
+            var validator = new ExpenseValidator();
             request.Time = DateTime.UtcNow.AddDays(1);
             var response = validator.Validate(request);
 
@@ -67,7 +67,7 @@ namespace Validator.Test.Request.Register
         public void Error_PaymentType_Invalid()
         {
             var request = RequestExpensesBuilder.Build();
-            var validator = new RegisterExpenseValidator();
+            var validator = new ExpenseValidator();
             request.PaymentType = (PaymentType)800;
             var response = validator.Validate(request);
 
