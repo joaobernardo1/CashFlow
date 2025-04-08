@@ -122,3 +122,4 @@ C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\n
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.genruntimeconfig.cache
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\ref\CashFlow.API.dll
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.MvcApplicationPartsAssemblyInfo.cs
