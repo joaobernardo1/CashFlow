@@ -16,7 +16,7 @@ public class ReportController : Controller
     {
         byte[] file = await useCase.Execute(month);
 
-        if(file.Length == 0)
+        if(file.Length > 0)
             return File(file,MediaTypeNames.Application.Octet,"Expenses.xlsx");
 
         return NoContent();

@@ -123,3 +123,11 @@ C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\n
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\ref\CashFlow.API.dll
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\ClosedXML.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\ClosedXML.Parser.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\ExcelNumberFormat.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\RBush.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\System.IO.Packaging.dll

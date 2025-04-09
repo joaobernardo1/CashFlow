@@ -2,6 +2,6 @@
 {
     public interface IGetReportExcelUseCase
     {
-        public async Task<byte[]> Execute(DateOnly month);
+        Task<byte[]> Execute(DateOnly month);
     }
 }

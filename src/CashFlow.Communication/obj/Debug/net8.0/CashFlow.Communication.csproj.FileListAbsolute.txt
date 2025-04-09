@@ -22,3 +22,5 @@ C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\o
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\refint\CashFlow.Communication.dll
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.pdb
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\ref\CashFlow.Communication.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.Resources.ResourceReportControllerExcel.resources
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.csproj.GenerateResource.cache
