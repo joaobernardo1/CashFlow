@@ -5,6 +5,7 @@ using CashFlow.Application.UseCases.Expenses.GetById;
 using CashFlow.Application.UseCases.Expenses.Register;
 using CashFlow.Application.UseCases.Expenses.Update;
 using CashFlow.Application.UseCases.Reports.Excel;
+using CashFlow.Application.UseCases.Reports.Pdf;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CashFlow.Application
@@ -25,6 +26,7 @@ namespace CashFlow.Application
             services.AddScoped<IGetExpenseByIdUseCase, GetExpenseByIdUseCase>();
             services.AddScoped<IUpdateUseCase, UpdateUseCase>();
             services.AddScoped<IGetReportExcelUseCase, GetReportExcelUseCase>();
+            services.AddScoped<IGetReportPdfUseCase, GetReportPdfUseCase>();
         }
 
         public static void AddAutoMapper(IServiceCollection services)

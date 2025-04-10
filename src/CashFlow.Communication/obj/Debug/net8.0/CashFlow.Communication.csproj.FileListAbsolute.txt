@@ -22,5 +22,14 @@ C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\o
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\refint\CashFlow.Communication.dll
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.pdb
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\ref\CashFlow.Communication.dll
-C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.Resources.ResourceReportControllerExcel.resources
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\bin\Debug\net8.0\fr\CashFlow.Communication.resources.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\bin\Debug\net8.0\pt-BR\CashFlow.Communication.resources.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\bin\Debug\net8.0\pt-PT\CashFlow.Communication.resources.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.Resources.ResourceReportController.resources
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.Resources.ResourceReportController.fr.resources
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.Resources.ResourceReportController.pt-BR.resources
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.Resources.ResourceReportController.pt-PT.resources
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\fr\CashFlow.Communication.resources.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\pt-BR\CashFlow.Communication.resources.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\pt-PT\CashFlow.Communication.resources.dll

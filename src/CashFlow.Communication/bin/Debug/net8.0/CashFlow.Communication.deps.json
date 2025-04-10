@@ -9,6 +9,20 @@
       "CashFlow.Communication/1.0.0": {
         "runtime": {
           "CashFlow.Communication.dll": {}
+        },
+        "resources": {
+          "en-US/CashFlow.Communication.resources.dll": {
+            "locale": "en-US"
+          },
+          "fr/CashFlow.Communication.resources.dll": {
+            "locale": "fr"
+          },
+          "pt-BR/CashFlow.Communication.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "pt-PT/CashFlow.Communication.resources.dll": {
+            "locale": "pt-PT"
+          }
         }
       }
     }

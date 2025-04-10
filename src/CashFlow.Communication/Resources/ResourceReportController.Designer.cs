@@ -22,14 +22,14 @@ namespace CashFlow.Communication.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class ResourceReportControllerExcel {
+    public class ResourceReportController {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal ResourceReportControllerExcel() {
+        internal ResourceReportController() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace CashFlow.Communication.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CashFlow.Communication.Resources.ResourceReportControllerExcel", typeof(ResourceReportControllerExcel).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CashFlow.Communication.Resources.ResourceReportController", typeof(ResourceReportController).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace CashFlow.Communication.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to AMOUNT.
+        ///   Looks up a localized string similar to Amount.
         /// </summary>
         public static string AMOUNT {
             get {
@@ -70,7 +70,7 @@ namespace CashFlow.Communication.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DATE.
+        ///   Looks up a localized string similar to Date.
         /// </summary>
         public static string DATE {
             get {
@@ -79,7 +79,7 @@ namespace CashFlow.Communication.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DESCRIPTION.
+        ///   Looks up a localized string similar to Description.
         /// </summary>
         public static string DESCRIPTION {
             get {
@@ -88,7 +88,7 @@ namespace CashFlow.Communication.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to PAYMENT TYPE.
+        ///   Looks up a localized string similar to Payment method.
         /// </summary>
         public static string PAYMENT_TYPE {
             get {
@@ -97,11 +97,29 @@ namespace CashFlow.Communication.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TITLE.
+        ///   Looks up a localized string similar to Title.
         /// </summary>
         public static string TITLE {
             get {
                 return ResourceManager.GetString("TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expenses for.
+        /// </summary>
+        public static string TITLE_DOCUMENT {
+            get {
+                return ResourceManager.GetString("TITLE_DOCUMENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Total spent in (0).
+        /// </summary>
+        public static string TOTAL_SPENT_IN {
+            get {
+                return ResourceManager.GetString("TOTAL_SPENT_IN", resourceCulture);
             }
         }
     }

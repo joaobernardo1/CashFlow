@@ -118,18 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AMOUNT" xml:space="preserve">
-    <value>AMOUNT</value>
+    <value>VALEUR</value>
   </data>
   <data name="DATE" xml:space="preserve">
     <value>DATE</value>
   </data>
   <data name="DESCRIPTION" xml:space="preserve">
-    <value>DESCRIPTION</value>
+    <value>Description</value>
   </data>
   <data name="PAYMENT_TYPE" xml:space="preserve">
-    <value>PAYMENT TYPE</value>
+    <value>MODE DE PAIEMENT</value>
   </data>
   <data name="TITLE" xml:space="preserve">
-    <value>TITLE</value>
+    <value>TITRE</value>
+  </data>
+  <data name="TITLE_DOCUMENT" xml:space="preserve">
+    <value>Dépenses pour</value>
+  </data>
+  <data name="TOTAL_SPENT_IN" xml:space="preserve">
+    <value>Total dépensé pour</value>
   </data>
 </root>

@@ -73,11 +73,11 @@ namespace CashFlow.Application.UseCases.Reports.Excel
 
         private void InsertHeader(IXLWorksheet worksheet)
         {
-            worksheet.Cell("A1").Value = ResourceReportControllerExcel.TITLE;
-            worksheet.Cell("B1").Value = ResourceReportControllerExcel.DATE;
-            worksheet.Cell("C1").Value = ResourceReportControllerExcel.DESCRIPTION;
-            worksheet.Cell("D1").Value = ResourceReportControllerExcel.PAYMENT_TYPE;
-            worksheet.Cell("E1").Value = ResourceReportControllerExcel.AMOUNT;
+            worksheet.Cell("A1").Value = ResourceReportController.TITLE;
+            worksheet.Cell("B1").Value = ResourceReportController.DATE;
+            worksheet.Cell("C1").Value = ResourceReportController.DESCRIPTION;
+            worksheet.Cell("D1").Value = ResourceReportController.PAYMENT_TYPE;
+            worksheet.Cell("E1").Value = ResourceReportController.AMOUNT;
 
             worksheet.Cells("A1:E1").Style
                 .Font.SetBold()

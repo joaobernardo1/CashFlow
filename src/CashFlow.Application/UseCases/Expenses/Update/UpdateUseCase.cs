@@ -40,7 +40,7 @@ namespace CashFlow.Application.UseCases.Expenses.Update
             await _unitOfWork.Commit();
         }
 
-        public void Validate(RequestExpenseJson request)
+        public static void Validate(RequestExpenseJson request)
         {
             var validator = new ExpenseValidator();
             var result = validator.Validate(request);

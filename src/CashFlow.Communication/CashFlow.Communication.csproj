@@ -7,17 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="Resources\ResourceReportControllerExcel.Designer.cs">
+    <Compile Update="Resources\ResourceReportController.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>ResourceReportControllerExcel.resx</DependentUpon>
+      <DependentUpon>ResourceReportController.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Resources\ResourceReportControllerExcel.resx">
+    <EmbeddedResource Update="Resources\ResourceReportController.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResourceReportControllerExcel.Designer.cs</LastGenOutput>
+      <LastGenOutput>ResourceReportController.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 
