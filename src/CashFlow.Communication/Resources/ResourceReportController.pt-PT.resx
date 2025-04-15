@@ -133,9 +133,9 @@
     <value>TITULO</value>
   </data>
   <data name="TITLE_DOCUMENT" xml:space="preserve">
-    <value>Despesas para</value>
+    <value>Despesas para </value>
   </data>
   <data name="TOTAL_SPENT_IN" xml:space="preserve">
-    <value>Total gasto em</value>
+    <value>Total em {0}</value>
   </data>
 </root>

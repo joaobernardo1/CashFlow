@@ -47,3 +47,5 @@ C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Application\obj
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\fr\CashFlow.Communication.resources.dll
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-BR\CashFlow.Communication.resources.dll
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-PT\CashFlow.Communication.resources.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\Logo\logo.jpg
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\Logo\logo.png

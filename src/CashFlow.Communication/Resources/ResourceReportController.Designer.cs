@@ -106,7 +106,7 @@ namespace CashFlow.Communication.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Expenses for.
+        ///   Looks up a localized string similar to Expenses for .
         /// </summary>
         public static string TITLE_DOCUMENT {
             get {
@@ -115,7 +115,7 @@ namespace CashFlow.Communication.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Total spent in (0).
+        ///   Looks up a localized string similar to Total spent in {0}.
         /// </summary>
         public static string TOTAL_SPENT_IN {
             get {

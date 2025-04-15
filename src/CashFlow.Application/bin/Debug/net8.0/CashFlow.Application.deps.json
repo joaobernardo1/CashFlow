@@ -253,9 +253,6 @@
           }
         },
         "resources": {
-          "en-US/CashFlow.Communication.resources.dll": {
-            "locale": "en-US"
-          },
           "fr/CashFlow.Communication.resources.dll": {
             "locale": "fr"
           },
@@ -283,9 +280,6 @@
           }
         },
         "resources": {
-          "en-US/CashFlow.Exception.resources.dll": {
-            "locale": "en-US"
-          },
           "fr/CashFlow.Exception.resources.dll": {
             "locale": "fr"
           },

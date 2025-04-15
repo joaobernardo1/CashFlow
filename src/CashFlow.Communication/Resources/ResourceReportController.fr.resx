@@ -136,6 +136,6 @@
     <value>Dépenses pour</value>
   </data>
   <data name="TOTAL_SPENT_IN" xml:space="preserve">
-    <value>Total dépensé pour</value>
+    <value>Total dépensé pour {0}</value>
   </data>
 </root>

@@ -9,11 +9,14 @@ namespace CashFlow.Application.UseCases.Reports.Pdf.Fonts
         {
             var stream = ReadFontFile(faceName);
 
-            stream ??= ReadFontFile(FontHelper.DEFAULT_FONT);
+            if(stream is null)
+            {
+                stream = ReadFontFile(FontHelper.DEFAULT_FONT);
+            }
 
             var length = stream!.Length;
             var data = new byte[length];
-            stream.Read(data, 0, (int)length);
+            stream.Read(buffer: data, offset: 0, count: (int)length);
 
             return data;
         }
