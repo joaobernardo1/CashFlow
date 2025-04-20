@@ -148,3 +148,4 @@ C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\n
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\fr\CashFlow.Communication.resources.dll
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\pt-BR\CashFlow.Communication.resources.dll
 C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\pt-PT\CashFlow.Communication.resources.dll
+C:\Users\Administrator\Documents\Workspace\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Logo\logo.png

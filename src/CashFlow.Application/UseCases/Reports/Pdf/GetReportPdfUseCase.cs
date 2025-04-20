@@ -1,9 +1,11 @@
 ﻿
 using System.Reflection;
+using CashFlow.Application.UseCases.Reports.Pdf.Colors;
 using CashFlow.Application.UseCases.Reports.Pdf.Fonts;
 using CashFlow.Communication.Resources;
 using CashFlow.Domain.Repositories.Expenses;
 using MigraDoc.DocumentObjectModel;
+using MigraDoc.DocumentObjectModel.Tables;
 using MigraDoc.Rendering;
 using PdfSharp.Fonts;
 
@@ -35,6 +37,27 @@ namespace CashFlow.Application.UseCases.Reports.Pdf
             CreateHeaderWithProfileImageAndName(page);
             var totalExpenses = expenses.Sum(expenses => expenses.Amount);
             CreateTotalExpendSection(page, month, totalExpenses);
+
+            foreach (var expense in expenses)
+            {
+                var table = CreateTable(page);
+                var row = table.AddRow();
+                row.Height = 25;
+                row.Cells[0].AddParagraph(expense.Title);
+                row.Cells[0].Format.Font = new Font { Name = FontHelper.RALEWAY_BLACK, Size = 14, Color = ColorHelper.BLACK};
+                row.Cells[0].Shading.Color = ColorHelper.RED_LIGHT;
+                row.Cells[0].VerticalAlignment = VerticalAlignment.Center;
+                row.Cells[0].MergeRight = 2;
+
+                row.Cells[3].AddParagraph("Amount");
+                row.Cells[3].Format.Font = new Font { Name = FontHelper.RALEWAY_BLACK, Size = 14, Color = ColorHelper.WHITE };
+                row.Cells[3].Shading.Color = ColorHelper.RED_DARK;
+                row.Cells[3].VerticalAlignment = VerticalAlignment.Center;
+
+                row = table.AddRow();
+                row.Borders.Visible = false;
+
+            }
 
             return RenderDocument(document);
         }
@@ -112,6 +135,18 @@ namespace CashFlow.Application.UseCases.Reports.Pdf
             paragraph.AddFormattedText($"{totalExpenses} {CURRENCY_SIMBOL}", new Font { Name = FontHelper.RALEWAY_BLACK, Size = 50 });
 
             paragraph.AddFormattedText();
+        }
+
+        private Table CreateTable(Section page)
+        {
+            var table = page.AddTable();
+
+            table.AddColumn("195").Format.Alignment = ParagraphAlignment.Left;
+            table.AddColumn("80").Format.Alignment = ParagraphAlignment.Center;
+            table.AddColumn("120").Format.Alignment = ParagraphAlignment.Center;
+            table.AddColumn("120").Format.Alignment = ParagraphAlignment.Right;
+
+            return table;
         }
     }
 }
