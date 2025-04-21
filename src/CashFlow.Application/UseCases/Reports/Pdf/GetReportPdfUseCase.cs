@@ -3,6 +3,8 @@ using System.Reflection;
 using CashFlow.Application.UseCases.Reports.Pdf.Colors;
 using CashFlow.Application.UseCases.Reports.Pdf.Fonts;
 using CashFlow.Communication.Resources;
+using CashFlow.Domain.Entities;
+using CashFlow.Domain.Extensions;
 using CashFlow.Domain.Repositories.Expenses;
 using MigraDoc.DocumentObjectModel;
 using MigraDoc.DocumentObjectModel.Tables;
@@ -41,22 +43,11 @@ namespace CashFlow.Application.UseCases.Reports.Pdf
             foreach (var expense in expenses)
             {
                 var table = CreateTable(page);
+                CreateFirstLine(table, expense);
+                CreateSecondLine(table, expense);
+                CreateDescriptionLine(table, expense);
                 var row = table.AddRow();
-                row.Height = 25;
-                row.Cells[0].AddParagraph(expense.Title);
-                row.Cells[0].Format.Font = new Font { Name = FontHelper.RALEWAY_BLACK, Size = 14, Color = ColorHelper.BLACK};
-                row.Cells[0].Shading.Color = ColorHelper.RED_LIGHT;
-                row.Cells[0].VerticalAlignment = VerticalAlignment.Center;
-                row.Cells[0].MergeRight = 2;
-
-                row.Cells[3].AddParagraph("Amount");
-                row.Cells[3].Format.Font = new Font { Name = FontHelper.RALEWAY_BLACK, Size = 14, Color = ColorHelper.WHITE };
-                row.Cells[3].Shading.Color = ColorHelper.RED_DARK;
-                row.Cells[3].VerticalAlignment = VerticalAlignment.Center;
-
-                row = table.AddRow();
                 row.Borders.Visible = false;
-
             }
 
             return RenderDocument(document);
@@ -132,11 +123,10 @@ namespace CashFlow.Application.UseCases.Reports.Pdf
 
             paragraph.AddLineBreak();
 
-            paragraph.AddFormattedText($"{totalExpenses} {CURRENCY_SIMBOL}", new Font { Name = FontHelper.RALEWAY_BLACK, Size = 50 });
+            paragraph.AddFormattedText($"{totalExpenses} {CURRENCY_SIMBOL}", new Font { Name = FontHelper.WORKSANS_BLACK, Size = 50 });
 
             paragraph.AddFormattedText();
         }
-
         private Table CreateTable(Section page)
         {
             var table = page.AddTable();
@@ -147,6 +137,61 @@ namespace CashFlow.Application.UseCases.Reports.Pdf
             table.AddColumn("120").Format.Alignment = ParagraphAlignment.Right;
 
             return table;
+        }
+        private void CreateFirstLine(Table table, Expense expense)
+        {
+            var row = table.AddRow();
+            row.Height = 25;
+            row.Cells[0].AddParagraph(expense.Title);
+            row.Cells[0].Format.Font = new Font { Name = FontHelper.RALEWAY_BLACK, Size = 14, Color = ColorHelper.WHITE};
+            row.Cells[0].Shading.Color = ColorHelper.RED_DARK;
+            row.Cells[0].VerticalAlignment = VerticalAlignment.Center;
+            row.Cells[0].MergeRight = 2;
+            row.Cells[0].Format.LeftIndent = 20;
+
+            row.Cells[3].AddParagraph("Amount");
+            row.Cells[3].Format.Font = new Font { Name = FontHelper.RALEWAY_BLACK, Size = 14, Color = ColorHelper.WHITE };
+            row.Cells[3].Shading.Color = ColorHelper.RED_DARK;
+            row.Cells[3].VerticalAlignment = VerticalAlignment.Center;
+        }
+        private void CreateSecondLine(Table table, Expense expenses)
+        {
+            var row = table.AddRow();
+            row.Height = 25;
+            row.Cells[0].AddParagraph(expenses.Time.ToString("D"));
+            SetStyleForExpenseInformation(row.Cells[0]);
+            row.Cells[0].Format.LeftIndent = 20;
+
+            row.Cells[1].AddParagraph(expenses.Time.ToString("t"));
+            SetStyleForExpenseInformation(row.Cells[1]);
+
+            row.Cells[2].AddParagraph(expenses.PaymentType.PaymentTypeToString());
+            SetStyleForExpenseInformation(row.Cells[2]);
+
+            row.Cells[3].AddParagraph($"-{expenses.Amount.ToString()}{CURRENCY_SIMBOL}");
+            SetStyleForExpenseInformation(row.Cells[3]);
+
+        }
+
+        private void CreateDescriptionLine(Table table, Expense expense)
+        {
+            var description = expense.Description;
+            if(description != null)
+            {
+                var row = table.AddRow();
+                row.Height = 25;
+                row.Cells[0].AddParagraph(description);
+                SetStyleForExpenseInformation(row.Cells[0]);
+                row.Cells[0].Format.LeftIndent = 20;
+                row.Cells[0].MergeRight = 3;
+            }
+
+        }
+        private void SetStyleForExpenseInformation(Cell cell)
+        {
+            cell.Format.Font = new Font { Name = FontHelper.WORKSANS_REGULAR, Size = 10, Color = ColorHelper.BLACK };
+            cell.Shading.Color = ColorHelper.GREEN_LIGHT;
+            cell.VerticalAlignment = VerticalAlignment.Center;
         }
     }
 }
