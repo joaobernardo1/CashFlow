@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jhones\\Source\\Repos\\CashFlow\\test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj": {}
+    "C:\\Users\\Jhones\\Desktop\\New folder\\CashFlow\\test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jhones\\Source\\Repos\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
+    "C:\\Users\\Jhones\\Desktop\\New folder\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhones\\Source\\Repos\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj",
+        "projectUniqueName": "C:\\Users\\Jhones\\Desktop\\New folder\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj",
         "projectName": "CashFlow.Communication",
-        "projectPath": "C:\\Users\\Jhones\\Source\\Repos\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj",
+        "projectPath": "C:\\Users\\Jhones\\Desktop\\New folder\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj",
         "packagesPath": "C:\\Users\\Jhones\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhones\\Source\\Repos\\CashFlow\\src\\CashFlow.Communication\\obj\\",
+        "outputPath": "C:\\Users\\Jhones\\Desktop\\New folder\\CashFlow\\src\\CashFlow.Communication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\Jhones\\Source\\Repos\\CashFlow\\test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj": {
+    "C:\\Users\\Jhones\\Desktop\\New folder\\CashFlow\\test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhones\\Source\\Repos\\CashFlow\\test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj",
+        "projectUniqueName": "C:\\Users\\Jhones\\Desktop\\New folder\\CashFlow\\test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj",
         "projectName": "CommonUtilitiesTest",
-        "projectPath": "C:\\Users\\Jhones\\Source\\Repos\\CashFlow\\test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj",
+        "projectPath": "C:\\Users\\Jhones\\Desktop\\New folder\\CashFlow\\test\\CommonUtilitiesTest\\CommonUtilitiesTest.csproj",
         "packagesPath": "C:\\Users\\Jhones\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhones\\Source\\Repos\\CashFlow\\test\\CommonUtilitiesTest\\obj\\",
+        "outputPath": "C:\\Users\\Jhones\\Desktop\\New folder\\CashFlow\\test\\CommonUtilitiesTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Jhones\\Source\\Repos\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
-                "projectPath": "C:\\Users\\Jhones\\Source\\Repos\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj"
+              "C:\\Users\\Jhones\\Desktop\\New folder\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
+                "projectPath": "C:\\Users\\Jhones\\Desktop\\New folder\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj"
               }
             }
           }
