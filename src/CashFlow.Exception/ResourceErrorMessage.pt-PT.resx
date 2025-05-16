@@ -121,6 +121,9 @@
     <value>O montante precisa ser maior que zero
 </value>
   </data>
+  <data name="EMAIL_EXIST" xml:space="preserve">
+    <value />
+  </data>
   <data name="FUTURE_EXPENSES" xml:space="preserve">
     <value>A despesa esta no futuro</value>
   </data>

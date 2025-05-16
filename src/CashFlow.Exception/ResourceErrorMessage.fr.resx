@@ -120,6 +120,9 @@
   <data name="AMOUNT_GREATHER_ZERO" xml:space="preserve">
     <value>La valeur doit être supérieure à zéro</value>
   </data>
+  <data name="EMAIL_EXIST" xml:space="preserve">
+    <value>Cet email existe déjà</value>
+  </data>
   <data name="FUTURE_EXPENSES" xml:space="preserve">
     <value>Les dépenses ne peuvent pas être pour l’avenir</value>
   </data>

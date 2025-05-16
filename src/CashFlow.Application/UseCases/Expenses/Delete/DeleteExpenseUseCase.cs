@@ -14,8 +14,7 @@ namespace CashFlow.Application.UseCases.Expenses.Delete
 
         public DeleteExpenseUseCase(
             IExpensesWriteOnlyRepository repository,
-            IUnitOfWork unityOfWork,
-            IMapper mapper)
+            IUnitOfWork unityOfWork)
         {
             _repository = repository;
             _unityOfWork = unityOfWork;

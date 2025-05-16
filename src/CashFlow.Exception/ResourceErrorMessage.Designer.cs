@@ -70,6 +70,15 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This email already exists.
+        /// </summary>
+        public static string EMAIL_EXIST {
+            get {
+                return ResourceManager.GetString("EMAIL_EXIST", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Expanses cannot be for the future.
         /// </summary>
         public static string FUTURE_EXPENSES {
