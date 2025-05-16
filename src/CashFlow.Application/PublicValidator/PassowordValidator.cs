@@ -42,7 +42,7 @@ namespace CashFlow.Application.PublicValidator
                 context.MessageFormatter.AppendArgument(ERROR_MESSAGE, "Invalid Password");
                 return false;
             }
-            if(Regex.IsMatch(password, @"[\!\@\#\$\%\^\&\*\(\)\_\+\=\-]+") == false)
+            if(Regex.IsMatch(password, @"[\!\@\#\$\%\^\&\*\(\)\+\=\-]+") == false)
             {
                 context.MessageFormatter.AppendArgument(ERROR_MESSAGE, "Invalid Password");
                 return false;
